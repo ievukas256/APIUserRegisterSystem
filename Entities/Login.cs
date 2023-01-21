@@ -1,9 +1,10 @@
-﻿namespace APIUserRegisterSystem.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace APIUserRegisterSystem.Entities
 {
     public class Login
     {
-        public int Id { get; set; }
-       // public int UserId { get; set; }
+        public int Id { get; set; }        
         public string UserName { get; set; }
         public string Password { get; set; }
         public string Role { get; set; }

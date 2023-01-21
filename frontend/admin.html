@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="admin.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Admin panel</h1>
+    <section id="admin-panel">
+      <div id="admin-url">
+        <p><a href="index.html">Log in</a></p>
+        <p><a href="register.html">Register</a></p>
+        <p><a href="admin.html">Admin</a></p>
+        <p><a href="user.html">User</a></p>
+        <p><a id="logOut" href="index.html">LogOut</a></p>
+      </div>     
+      <form action="" method="">
+        <input
+          type="number"
+          class="login-input" 
+          id="userId"         
+          placeholder="User ID"
+        />
+        <input type="submit" class="Submit-button" id="deleteUser" value="Delete user by ID" />
+      </form>
+      <form action="" >
+        <input type="submit" class="Submit-button" id="getAll" value="Get all users" />
+      </form>      
+      <div id="statusMessages">
+        <!-- display server Message -->
+      </div>
+      <div id="users-container">
+        <!-- display users information -->
+      </div>
+    </section>
+  </body>
+</html>

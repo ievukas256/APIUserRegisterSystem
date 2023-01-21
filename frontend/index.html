@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <section class="login-container">
+        <input type="image" id="login-image" src="login-icon.jpg">
+      <form id="login-form" name="form" onsubmit="return validateform()">
+        <label for="UserName">Username:</label>
+        <input
+          type="text"
+          class="login-input"
+          id="loginName"
+          name="username"
+          placeholder="Username"
+         />
+        <label for="Password">Password:</label>
+        <input
+          type="password"
+          class="login-input"
+          id="loginPass"
+          name="pass"
+          placeholder="***********"
+        />
+        <input type="submit" class="Submit-button" id="logIn" value="Log in" onclick=""  />
+      </form>      
+      <p><a href="register.html">Register</a></p>
+    </section>
+    <div id="statusMessages"></div>
+  </body>
+</html>

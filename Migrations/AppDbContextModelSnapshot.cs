@@ -45,7 +45,7 @@ namespace APIUserRegisterSystem.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Addresses");
+                    b.ToTable("Addresses", (string)null);
                 });
 
             modelBuilder.Entity("APIUserRegisterSystem.Entities.Login", b =>
@@ -70,7 +70,7 @@ namespace APIUserRegisterSystem.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Logins");
+                    b.ToTable("Logins", (string)null);
                 });
 
             modelBuilder.Entity("APIUserRegisterSystem.Entities.User", b =>
@@ -115,7 +115,7 @@ namespace APIUserRegisterSystem.Migrations
 
                     b.HasIndex("LoginId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("APIUserRegisterSystem.Entities.User", b =>

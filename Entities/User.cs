@@ -16,7 +16,6 @@ namespace APIUserRegisterSystem.Entities
         public int IdNumber { get; set; }
         public int Phone { get; set; }
         public string Mail { get; set; }
-        public string Photo { get; set; }
-        
+        public string Photo { get; set; }        
     }
 }

@@ -23,7 +23,8 @@ namespace APIUserRegisterSystem.Repositories
             var newLogin = new Login
             {
                 UserName = login.UserName,
-                Password = login.Password
+                Password = login.Password,
+                Role = "user"
 
             };
             _context.Add(newLogin);
